@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.ipynb_checkpoints
+
+
+# Virtual environment
+venv/
+ENV/
+env/
+campenv/
+env.bak/
+.venv/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model & cache files
+*.onnx
+*.pt
+*.h5
+*.ckpt
+*.pb
+
+# Data and outputs
+*.csv
+*.xlsx
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+outputs/
+results/
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*.bak
+*.tmp
